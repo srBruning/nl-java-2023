@@ -1,4 +1,4 @@
-package com.esc;
+package com.esc.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ public class Turma {
 	private String nome;
 	private ArrayList<Aluno> alunos;
 
-	public Turma(String nome, int qtdAlunos) {
+	public Turma(String nome) {
 		this.nome = nome;
 		alunos = new ArrayList<Aluno>();
 	}
@@ -65,4 +65,7 @@ public class Turma {
 		return media;
 	}
 
+	public String toString() {
+		return "Turma [nome: " + nome + "]";
+	}
 }

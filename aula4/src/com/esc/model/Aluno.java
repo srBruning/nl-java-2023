@@ -1,4 +1,4 @@
-package com.esc;
+package com.esc.model;
 
 public class Aluno {
 
