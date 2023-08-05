@@ -1,6 +1,7 @@
 package sabado.collections;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Vector;
@@ -11,7 +12,7 @@ public class Principal {
 		Long var1 = 0l;
 		
 		
-		Vector<Long> arrayList = new Vector<Long>();
+		HashSet<Long> arrayList = new HashSet<Long>();
 		
 		arrayList.add(100l);
 		arrayList.add(2l);

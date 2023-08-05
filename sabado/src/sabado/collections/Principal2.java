@@ -9,7 +9,8 @@ public class Principal2 {
 	public static void main(String args[]) {
 				
 		ArrayList<Guitara> arrayList = new ArrayList<Guitara>();
-
+		 
+		
 		System.out.println(arrayList.get(0));
 
 		Iterator<Guitara> iter1 = arrayList.iterator();
